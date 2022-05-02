@@ -11,3 +11,13 @@ a = input()
 b = input()
 c = float(a) + float(b)
 print(c)
+
+# 6027 : [기초-출력변환] 10진 정수 입력받아 16진수로 출력하기1
+a = input()
+b = int(a)
+print('%x' % b)
+
+# 6028 : [기초-출력변환] 10진 정수 입력받아 16진수로 출력하기2
+a = input()
+b = int(a)
+print('%X' % b)
