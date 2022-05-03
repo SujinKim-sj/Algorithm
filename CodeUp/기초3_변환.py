@@ -21,3 +21,17 @@ print('%x' % b)
 a = input()
 b = int(a)
 print('%X' % b)
+
+# 6029 : [기초-값변환] 16진 정수 입력받아 8진수로 출력하기
+a = input()
+b = int(a, 16)
+print('%o' % b)
+
+# 6030 : [기초-값변환] 영문자 1개 입력받아 10진수로 변환하기
+n = ord(input())
+print(n)
+
+# 6031 : [기초-값변환] 정수 입력받아 유니코드 문자로 변환하기
+n = int(input())
+n = chr(n)
+print(n)
