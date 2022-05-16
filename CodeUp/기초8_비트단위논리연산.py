@@ -10,3 +10,13 @@ a = int(input())
 print(~a)   # ~ : tilde, 틸드
 
 # 6060 : [기초-비트단위논리연산] 비트단위로 AND 하여 출력하기
+a, b = input().split()
+print(int(a) & int(b))
+
+# 6061 : [기초-비트단위논리연산] 비트단위로 OR 하여 출력하기
+a, b = input().split()
+print(int(a) | int(b))
+
+# 6062 : [기초-비트단위논리연산] 비트단위로 XOR 하여 출력하기
+a, b = input().split()
+print(int(a) ^ int(b))
