@@ -39,3 +39,16 @@ m = int(m)
 for i in range(1, n + 1):
     for j in range(1, m + 1):
         print(i, j)
+        
+        
+# 6081 : [기초-종합] 16진수 구구단 출력하기
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
