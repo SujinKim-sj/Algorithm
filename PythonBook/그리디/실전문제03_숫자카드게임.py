@@ -20,8 +20,3 @@ for i in range(n):
     answer = max(answer, min_card)
 
 print(answer)
-
-
-
-
-print(answer)
