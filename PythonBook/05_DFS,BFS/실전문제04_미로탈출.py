@@ -11,7 +11,7 @@ for i in range(n):
 dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
 
-# BFS 소스코드 구현
+# BFS 소스코드 04_구현
 def bfs(x, y):
     # 큐 구현을 위해 deque 라이브러리 사용
     queue = deque()
