@@ -12,5 +12,5 @@ st.append(0)
 for i in range(1, n + 1):
   while arr[st[-1]] < arr[i]:
     st.pop()
-  print(st[-1], end=" ")
+  print(st[-1], end=" ")  # 맨 마지막 원소 출력
   st.append(i)

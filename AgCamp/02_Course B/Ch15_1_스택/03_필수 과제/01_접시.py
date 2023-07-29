@@ -18,6 +18,7 @@ while True:
     if t == current:
         stack[top - 1] = 0
         top -= 1
+        
         result[result_len] = 0  # pop
         result_len += 1
         cursor += 1
